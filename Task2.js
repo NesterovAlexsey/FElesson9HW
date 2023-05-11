@@ -1,14 +1,14 @@
 
 const decode = function(x){
     switch (x) {
-        case "SQ": return "шквал";
-        case "PO": return "пыльный вихрь";
-        case "FC": return "торнадо";
-        case "BR": return "дымка (видимость от 1 до 9 км)";
-        case "HZ": return "мгла (видимость менее 10 км)";
-        case "FU": return "дым (видимость менее 10 км)";
-        case "DS": return "пыльная буря (видимость менее 10 км)";
-        case "SS": return "песчаная буря (видимость менее 10 км)";
+        case "SQ": return "squall";
+        case "PO": return "dust swirl";
+        case "FC": return "tornado";
+        case "BR": return "fog (visibility from 1 to 9 km)";
+        case "HZ": return "haze (visibility less than 10 km)";
+        case "FU": return "smoke (visibility less than 10 km)";
+        case "DS": return "dust storm (visibility less than 10 km)";
+        case "SS": return "sandstorm (visibility less than 10 km)";
         default : return "Command is incorrect";
     }
 }
